@@ -3,7 +3,7 @@ site_url: https://kapustnyak.github.io/backend_notes/
 repo_url: https://github.com/kapustnyak/backend_notes
 repo_name: kapustnyak/backend_notes
 
-docs_dir: "."            # корень репозитория = источник контента
+docs_dir: "docs"            # корень репозитория = источник контента
 use_directory_urls: true # «красивые» URL
 
 theme:
