@@ -11,14 +11,10 @@
             "id": "87e17b754716a7e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Добро пожаловать.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Добро пожаловать"
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -182,11 +178,25 @@
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "bases:Создать новую базу": false
+      "bases:Создать новую базу": false,
+      "github-sync:Sync with Remote": false
     }
   },
   "active": "87e17b754716a7e6",
   "lastOpenFiles": [
-    "Добро пожаловать.md"
+    "docs/assets/stylesheets/interactive_graph.css",
+    "docs/assets/javascripts/interactive_graph.js",
+    "docs/assets/stylesheets",
+    "docs/assets/javascripts",
+    "docs/assets",
+    "docs/index.md",
+    "docs",
+    "mkdocs.yml",
+    "mkdocs.rtf",
+    "Добро пожаловать.md",
+    "index.md",
+    "Новая папка",
+    "mkdocs.yml.rtf",
+    "requirements.txt"
   ]
 }

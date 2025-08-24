@@ -22,6 +22,7 @@ exclude_docs: |
   README.md
 
 plugins:
+  - obsidian-interactive-graph
   - search
   - roamlinks            # поддержка [[WikiLink]] из Obsidian
   - awesome-pages        # простая навигация через .pages файлы
