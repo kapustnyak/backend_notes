@@ -1,0 +1,41 @@
+site_name: Backender notes
+site_url: https://kapustnyak.github.io/backend_notes/
+repo_url: https://github.com/kapustnyak/backend_notes
+repo_name: kapustnyak/backend_notes
+
+docs_dir: "."            # корень репозитория = источник контента
+use_directory_urls: true # «красивые» URL
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - content.code.copy
+    - content.tabs.link
+    - search.highlight
+
+# MkDocs 1.5+ умеет исключать файлы/папки из сборки
+exclude_docs: |
+  .obsidian/**
+  README.md
+
+plugins:
+  - search
+  - roamlinks            # поддержка [[WikiLink]] из Obsidian
+  - awesome-pages        # простая навигация через .pages файлы
+  - glightbox            # лайтбокс для картинок
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - attr_list
+  - def_list
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
