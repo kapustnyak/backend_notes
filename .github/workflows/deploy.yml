@@ -25,11 +25,6 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - name: Install deps
-        run: |
-          pip install \
-            mkdocs-material \
-            mkdocs-roamlinks-plugin \
-            mkdocs-awesome-pages-plugin \
-            mkdocs-glightbox
+        run: pip install -r requirements.txt
       - name: Deploy
         run: mkdocs gh-deploy --force
