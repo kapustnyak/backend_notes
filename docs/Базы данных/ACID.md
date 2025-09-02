@@ -32,6 +32,7 @@ INSERT INTO audit_log(...) VALUES (...);
 ROLLBACK TO sp1;   -- откатили только risky-часть
 COMMIT;
 ```
+
 ### Согласованность (Consistency)
 
 > [!NOTE] Согласованность
